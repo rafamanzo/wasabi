@@ -3,12 +3,12 @@ $:.push File.expand_path("../lib", __FILE__)
 require "wasabi/version"
 
 Gem::Specification.new do |s|
-  s.name        = "wasabi"
+  s.name        = "wasabi-ng-1.6"
   s.version     = Wasabi::VERSION
-  s.authors     = ["Daniel Harrington"]
-  s.email       = ["me@rubiii.com"]
-  s.homepage    = "https://github.com/savonrb/#{s.name}"
-  s.summary     = "A simple WSDL parser"
+  s.authors     = ["Rafael Reggiani Manzo"]
+  s.email       = ["rr.manzo@gmail.com"]
+  s.homepage    = "https://github.com/rafamanzo/wasabi"
+  s.summary     = "This a fork from Daniel Harrington's Wasabi with nokogiri updated to 1.6"
   s.description = s.summary
 
   s.rubyforge_project = s.name
